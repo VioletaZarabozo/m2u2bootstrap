@@ -1,0 +1,319 @@
+        body{
+			background: #FCFFE4;
+			margin-left: 0.5em;
+			margin-right: 1em;
+			max-width: 100%;
+		}
+        h1{
+	        font-family: Lato;
+	        text-align: center;
+	        color:goldenrod;
+	        border-radius: 5em;
+        	border:1.2px solid black;
+        }
+        h2{
+	       text-align: center;
+	       color: darkolivegreen;
+        }
+        h3{
+	       font-family: Minerva Modern;
+           color: palegoldenrod;
+
+        }
+        p{
+        	font-family: SOFIA PRO;
+        }
+        header a{
+        	font-size: 1.2em;
+        	border-radius: 3em;
+        }
+        #introduccion h3{
+        	width: 17em;
+        	margin: 1em auto;
+			text-align: center;
+			font-weight: bolder;
+			border: 1.2px solid black;
+			border-radius: 5em;
+			box-shadow: 0.3em 0.3em 0.5em 0 #b8d6c0;
+			background: #b8d6c0;
+			color: #2e613b;
+
+        }
+
+        #introduccion p{
+        	text-align: center;
+        	font-size: 1.5em;
+        }
+        #custom-cards{
+
+        	background: whitesmoke;
+        }
+        #custom-cards h2{
+        	font-weight: bolder;
+        	font-family: Lato;
+
+        }
+        #custom-cards h3{
+        	margin-left: 0.4em;
+        }
+
+        #desierto{
+        	padding: 2em;
+        	margin: 0.75em;
+        	border-radius: 4em;
+        }
+        #border-container{
+        	margin-bottom: 1em;
+        	background: whitesmoke;
+        	text-align: center;
+        	margin: 0;
+          	border-radius: 3em;
+        	border: 1.2px solid black;
+        }
+        .subcontainer{
+        	box-sizing: content-box;
+        }
+        .lista-desierto{
+        	font-family: SOFIA PRO;
+        	font-weight: 500;
+        	color: darkolivegreen;
+        	list-style: none;
+        	text-align: center;
+        }
+        .img-desierto{
+        	border-radius: 2em;
+        	width: 30em;
+        	height: 15em;
+        	margin-top: 0.5em;
+        	text-align: center;
+        }
+        #border-container h4{
+        	font-family: Lato;
+        	font-weight: bolder;
+        	max-width: 50em;
+        	height: 3em;
+        	color: olivedrab;
+        	display: inline-flex;
+        	flex-direction: column;
+        	justify-content: center;
+        	background: palegoldenrod;
+        	border-radius: 3em;
+        	font-size: 2em;
+        	text-align: center;
+        }
+
+        #desierto h3{
+			text-align: center;
+			font-weight: bold;
+			margin-bottom: 1em;
+			padding-top: 0.2em;
+			padding-bottom: 0.2em;
+			font-size: 2em;
+			border: 1.2px solid black;
+			border-radius: 5em;
+			background: lightgoldenrodyellow;
+			color: darkolivegreen;
+
+        }
+        #desierto p{
+        	color: darkolivegreen;
+        	font-family: SOFIA PRO;
+        	font-size: 1.3em;
+        	display: flex;
+        	margin-bottom: 0.7em;
+        	justify-content: center;
+        	flex-direction: column;
+        	text-align: center;
+        }
+
+	    #laguna h3{
+	    	font-family: Lato;
+	    	font-weight: bolder;
+			text-align: center;
+			border: 1.2px solid black;
+			border-radius: 5em;
+			display: inline-flex;
+			justify-content: center;
+			width: 10em;
+			padding: 0.4em 1em;
+			margin-bottom: 1em;
+			background: lightgoldenrodyellow;
+			color: darkolivegreen;
+
+		}
+		#laguna p{
+			font-family: Lato;
+			font-size: 1.2em;
+		}
+
+		#laguna li{
+			font-family: Lato;
+			font-size: 1.2em;
+		}
+
+		#campo{
+			margin-bottom: 3em;
+			text-align: center;
+		}
+
+		#campo h4{
+			font-family: Lato;
+			font-weight: bolder;
+			color: olivedrab;
+			margin: 1em ;
+			margin-bottom: 1.5em;
+			text-align: center;
+			font-size: 2.4em;
+		}
+
+		.lista-campo{
+			font-family: SOFIA PRO;
+			font-size: 1.2em;
+			list-style: none;
+			display: flex;
+			justify-content: flex-start;
+		}
+
+		#campo img{
+			position: center;
+			border-radius: 3em;
+			width: 20em;
+			height: 15em;
+		}
+
+		.h3-campo{
+			font-family: Lato;
+			margin: 0.4em auto;
+			width:20em;
+			font-size: 2em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			height: 3.5em;
+			text-align: center;
+			border: 1.2px solid black;
+			border-radius: 5em;
+			font-weight: bolder;
+			background: lightgoldenrodyellow;
+			color: darkolivegreen;
+		}
+
+		#campo p{
+			margin-top: 1.5em;
+			text-align: center;
+			font-size: 1.2em;
+		}
+		#footer{
+			height: 2em;
+			color: darkolivegreen;
+			background: #deefb7;
+			font-size: 1.1em;
+			display: flex;
+			justify-content: flex-end;
+			padding-bottom: 1em;
+			padding-right: 1em;
+			height: 1.5em;
+		}
+		.texto-divide{
+			margin-bottom: 1em;
+			text-align: center;
+			font-family: Minerva Modern;
+			font-size: 1.4em;
+			color: olivedrab;
+		}
+		hr{
+			width: 12em;
+			margin: 1em auto;
+		}
+		.informacion-lago{
+			color: black;
+			padding: 0.5em;
+			margin-bottom: 2em;
+			font-size: 1em;
+			text-align: center;
+			font-family: Lato;
+			margin: 10px auto;
+			width: 30em;
+			display: block;
+			border-radius: 3em;
+			text-decoration: none;
+			border: 1.2px solid black;
+			background: #deefb7;
+		}
+
+        .informacion-lago:hover{
+        	font-size: 1.2em;
+        	font-weight: bold;
+        	color: darkolivegreen;
+        }
+
+		#mini-biografia{
+			padding: 2em;
+			font-family: Lato;
+			outline: 1.2px solid black;
+			background: whitesmoke;
+			border-radius: 3.5em;
+		}
+		#mini-biografia h3{
+			margin-left: 0.4em;
+			margin-bottom: 0.8em;
+			color: darkolivegreen;
+		}
+		#mini-biografia img{
+			display: flex;
+			margin-top: 0.5em;
+			width: 25em;
+			height: 10em;
+			justify-content: space-between;
+			align-content: center;
+			flex-direction: column;
+			margin: 0.3em;
+		}
+
+		#contacto{
+			margin-bottom: 2em;/*
+			border-radius: 1.8em;
+			border: 1.2px solid black;*/
+			margin-top: 0;
+			font-family: Lato;
+			font-weight: bold;
+			color: olivedrab;
+		}
+
+		#contacto h4{
+			margin-bottom: 1.2em;
+			color: darkolivegreen;
+			display: inline-flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			font-size: 2em;
+			max-width: 15em;
+			height: 1.8em;
+			font-weight: bolder;
+			border-radius: 3em;
+			background: lightgoldenrodyellow;
+			border: 1.2px solid black;
+		}
+
+		#contacto p{
+			display: flex;
+			justify-content: flex-start;
+			flex-direction: column;
+			font-size: 1.3em;
+			font-family: Lato;
+		}
+
+		.ig-contacto{
+			color: black;
+			padding: 0.2em;
+			font-size: 1em;
+			border-radius: 2em;
+			border: 1.2px solid black;
+			text-decoration: none;
+		}
+
+		.ig-contacto:hover{
+			color: black;
+			background: #deefb7;
+		}
